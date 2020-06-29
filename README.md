@@ -1,2 +1,7 @@
 # SLIR-website
-HTML Based Responsive website Front End development 
+HTML Based Responsive Website Front End development 
+
+Frameworks Used 
+  HTML 5
+  CSS
+  JavaScript
