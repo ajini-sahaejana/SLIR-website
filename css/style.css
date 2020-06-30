@@ -14,3 +14,191 @@ p{
     font-size: 14px;
 }
 
+/* ============== Generic CSS =============== */
+
+.section-title{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.section-title h2{
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.section-title h2:after{
+    content:"";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 2px;
+    background-color: #129CF3;
+    margin-left: -30px;
+}
+
+.section-title p{
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+    
+}
+
+/* ============== Navigation =============== */
+
+.navbar-default{
+    background-color: transparent;
+    border-color: #444;
+    font-weight: 600;
+    z-index: 110;
+    transition: all 1s;
+    -mos-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.navbar-default .navbar-nav > li >a {
+    color: #B5B5B5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: all 1s;
+    -mos-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+      
+}
+
+.navbar-default .navbar-nav > li >a:hover {
+    color: #129CF3;    
+}
+
+.navbar-default .navbar-nav > li >a:focus{
+    color: #B5B5B5;    
+}
+
+.navbar-brand{
+    padding: 9px 15px;
+}
+
+.navbar-brand p{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 5px;
+    color: #fff;
+    transition: all 1s;
+    -mos-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.navbar-default .navbar-nav > .active >a,
+.navbar-default .navbar-nav > .active >a:hover,
+.navbar-default .navbar-nav > .active >a:focus{
+    background-color: black;
+    color: white;
+}
+
+/* ============== Header =============== */
+.header{
+    background-image: url("../images/header.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    
+}
+.header-overlay{
+    background-color: rgba(31,31,31, 0.55);
+}
+
+
+.logo{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.header-text h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.header-text p{
+    color: #fff;
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: 300;
+
+    
+}
+
+.header-btns{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    
+}
+
+.btn-download,
+.btn-dowload:focus,
+.btn-dowload:active,
+.btn-dowload:visited
+{
+    background: transparent;
+    border-color: #129cf3;
+    border-width: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: : 3px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    
+}
+
+.btn-download:hover {
+    background-color: #129CF3;
+    color: #fff;
+}
+
+.btn-tour,
+.btn-tour:focus,
+.btn-tour:active,
+.btn-tour:visited{
+    color: #a9adb0;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 600;
+    background: transparent;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.btn-tour:hover {
+    color: #fff;
+}
+
+.header-robot img{
+    width:100%;
+}
