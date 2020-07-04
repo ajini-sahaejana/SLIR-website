@@ -604,3 +604,73 @@ submit-btn:visited{
     font-size: 20px;
 }
 
+/* ============== Footer =============== */
+.footer{
+    background-color: #1a1a1a;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    border-bottom: 3px solid #129CF3;
+    
+}
+
+#copyrights{
+    width : 100%;
+}
+
+#copyrights p{
+    color: #8c888A;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+
+#copyrights p a{
+    text-decoration: none;
+}
+
+.phone-numbers{
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 30px;
+}
+
+.phone-numbers div{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.phone-numbers div i{
+    font-size: 15px;
+    color: #129CF3;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+
+.phone-numbers p{
+    color: #8c888A;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 600;
+    
+}
+
+.address{
+    width = 100%;
+}
+
+.address p{
+    color: #8c888A;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+
+.address p a{
+    text-decoration: none;
+}
